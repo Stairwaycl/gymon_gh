@@ -1,6 +1,6 @@
 @import 'components/buttons.css';
 @import 'components/navbar.css';
 
-.card-azul {
-  color: #5864a7 !important;
+main.terms-and-conditions {
+  font-family: 'Montserrat', sans-serif;
 }
