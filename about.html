@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
   <style>
+    /* Colores personalizados */
     :root {
       --primary: #C6E7FF;
       --secondary: #D4F6FF;
@@ -15,6 +15,7 @@
       --accent: #FFDDAE;
     }
 
+    /* Estilos personalizados */
     body {
       background-color: var(--background);
     }
@@ -23,14 +24,28 @@
       background-color: var(--background);
     }
 
-    .terms-and-conditions {
+    .nosotros {
       background-color: var(--secondary);
       padding: 20px;
       border-radius: 10px;
     }
 
-    footer {
+    .valores {
       background-color: var(--primary);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .equipo {
+      background-color: var(--secondary);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .contacto {
+      background-color: var(--primary);
+      padding: 20px;
+      border-radius: 10px;
     }
   </style>
 </head>
@@ -47,76 +62,73 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.html">
-            <i class="fas fa-info-circle"></i> Nosotros
+            <i class="fas fa-users"></i> Nosotros
           </a>
         </li>
       </ul>
     </div>
   </header>
 
-  <main class="container mt-5 terms-and-conditions">
-    <h1 class="text-center">Términos y Condiciones</h1>
-
-    <p class="text-center">Última actualización: 31 de octubre de 2024</p>
-
-    <section>
-      <h2>1. Introducción</h2>
-      <p>Estos Términos y Condiciones regulan el uso de nuestros servicios y productos. Al utilizar nuestros servicios, aceptas estar sujeto a estos términos.</p>
+  <main>
+    <section id="nosotros" class="nosotros">
+      <h2 class="text-center">Bienvenidos a Gatica y Mongelós SpA</h2>
+      <p class="text-center">En Gatica y Mongelós SpA, nos apasionamos por crear soluciones web innovadoras y efectivas para ayudar a nuestros clientes a alcanzar sus objetivos. Nos enfocamos en diseño y desarrollo web de alta calidad.</p>
     </section>
 
-    <section>
-      <h2>2. Uso de los Servicios</h2>
-      <p>Debes utilizar nuestros servicios de acuerdo con las leyes y regulaciones aplicables. No podrás utilizar nuestros servicios para realizar actividades ilegales o dañinas.</p>
+    <section id="nuestra-historia" class="valores">
+      <h3>Nuestra historia</h3>
+      <p>Gatica y Mongelós SpA es una empresa familiar fundada en 2021 por Erwin Gatica y Mirtha Mongelós, pareja y socios empresariales. Unimos nuestras habilidades y experiencia para ofrecer soluciones web personalizadas y efectivas.</p>
     </section>
 
-    <section>
-      <h2>3. Dominio Personalizado</h2>
-      <p>Es responsabilidad del cliente adquirir y configurar su dominio personalizado. Nosotros nos encargamos de la configuración inicial.</p>
-    </section>
-
-    <section>
-      <h2>4. Hosting</h2>
-      <p>Utilizamos GitHub Pages como proveedor de hosting por defecto para nuestros proyectos. Sin embargo, si su aplicación crece y requiere más recursos, el cliente tiene la opción de elegir entre diferentes proveedores de hosting, incluyendo Render, Heroku u otros, y será responsable de contratar y configurar el plan que mejor se adapte a sus necesidades.</p>
-    </section>
-
-    <section>
-      <h2>5. Limitaciones de GitHub Pages</h2>
-      <p>El plan gratuito de GitHub Pages tiene las siguientes limitaciones:</p>
+    <section id="nuestro-equipo" class="equipo">
+      <h3>Nuestro equipo</h3>
       <ul>
-        <li>Tráfico: 100,000 visitas por mes</li>
-        <li>Almacenamiento: 1 GB por repositorio</li>
-        <li>Transferencia de datos: 100 GB por mes (carga de páginas y recursos estáticos)</li>
-      </ul>
-      <p>Si su aplicación supera estos límites, el cliente deberá considerar actualizar a un plan pago en GitHub o explorar opciones de hosting alternativas.</p>
-    </section>
-
-    <section>
-      <h2>6. Suspensión o cancelación de servicios</h2>
-      <p>Reservamos el derecho de suspender o cancelar nuestros servicios de desarrollo y despliegue en GitHub Pages en caso de incumplimiento de estas condiciones.</p>
-      <ul>
-        <li>Esta acción se tomará a nuestra discreción.</li>
-        <li>No requerirá notificación previa.</li>
+        <li>Erwin Gatica: Diseñador y desarrollador web.</li>
+        <li>Mirtha Mongelós: Especialista en marketing, redes sociales y gestión empresarial.</li>
       </ul>
     </section>
 
-    <section>
-      <h2>7. Modificaciones</h2>
-      <p>Podemos modificar estos términos en cualquier momento. Es tu responsabilidad revisar periódicamente estos términos.</p>
+    <section id="nuestros-valores" class="valores">
+      <h3>Nuestros valores</h3>
+      <ul>
+        <li>Calidad: Nos comprometemos a brindar soluciones web de alta calidad que satisfagan las necesidades de nuestros clientes.</li>
+        <li>Innovación: Estamos comprometidos con la innovación y la mejora continua.</li>
+        <li>Confianza: Brindamos soluciones transparentes y efectivas.</li>
+      </ul>
     </section>
 
-    <section>
-      <h2>8. Jurisdicción</h2>
-      <p>Estos términos se regirán por las leyes de Chile.</p>
+    <section id="que-hacemos" class="equipo">
+      <h3>¿Qué hacemos?</h3>
+      <ul>
+        <li>Diseño web: Creamos diseños web atractivos y funcionales.</li>
+        <li>Desarrollo web: Desarrollamos sitios web personalizados y responsivos.</li>
+      </ul>
     </section>
 
-    <section>
-      <h2>9. Contacto</h2>
-      <p>Para cualquier pregunta o inquietud, por favor contacta con nosotros a <a href="mailto:stairway.cl@gmail.com">stairway.cl@gmail.com</a></p>
+    <section id="contacto" style="background-color: #C6E7FF; padding: 20px; border-radius: 10px;">
+      <h3 style="color: #333;">Contacto</h3>
+      <p>¿Quieres saber más sobre nosotros o nuestros servicios? No dudes en contactarnos.</p>
+      <ul>
+        <li>Correo electrónico: <a href="mailto:stairway.cl@gmail.com" style="color: #333;">stairway.cl@gmail.com</a></li>
+      </ul>
     </section>
+
+    <section id="vision-mision" style="background-color: #D4F6FF; padding: 20px; border-radius: 10px;">
+      <h3 style="color: #333;">Visión y Misión</h3>
+      <h4 style="color: #333;">Visión</h4>
+      <p>Ser una empresa líder en diseño y desarrollo web en Chile, reconocida por nuestra innovación y calidad.</p>
+      <h4 style="color: #333;">Misión</h4>
+      <p>Ofrecer soluciones web personalizadas y efectivas que ayuden a nuestros clientes a alcanzar sus objetivos, mediante un enfoque innovador.</p>
+      <h4 style="color: #333;">Objetivos</h4>
+      <ul>
+        <li>Desarrollar sitios web de alta calidad para nuestros clientes.</li>
+        <li>Ser reconocidos como expertos en diseño y desarrollo web en Chile.</li>
+      </ul>
+    </section>
+
+
   </main>
 
-
-  <!-- Footer -->
   <footer class="bg-light text-center text-lg-start pt-5" style="background-color: #C6E7FF;">
     <div class="container p-4">
       <div class="row">
@@ -140,7 +152,7 @@
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
           <h5 class="text-uppercase fw-bold mb-4">Información legal</h5>
           <ul class="list-unstyled">
-            <li><a href="#" class="text-dark">Condiciones de Servicio</a></li>
+            <li><a href="terms-and-conditions.html" class="text-dark">Condiciones de Servicio</a></li>
             <li><a href="#" class="text-dark">Política de privacidad</a></li>
             <li><a href="#" class="text-dark">Aviso legal</a></li>
           </ul>
