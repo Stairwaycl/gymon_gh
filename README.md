@@ -1,3 +1,4 @@
 Página oficial de Gatica & Mongelós SpA
 
-Estamos trabajando para añadir un blog informativo y más planes de servicios.
+Recientemente fue abierto un blog oficial.
+Estamos trabajando para añadir más planes de servicios.
